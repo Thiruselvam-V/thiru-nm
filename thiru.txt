@@ -1,0 +1,20 @@
+devops-dashboard/
+├── backend/
+│   ├── src/
+│   │   ├── adapters/        # Cloud/CI provider adapters (AWS, GCP, GitHub, Jenkins)
+│   │   ├── routes/          # REST API endpoints
+│   │   ├── services/        # Deployment tracking logic
+│   │   ├── sockets/         # Real-time update logic
+│   │   └── index.js
+│   ├── .env
+│   └── package.json
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── views/
+│   │   ├── App.js
+│   │   └── socket.js
+│   └── package.json
+├── docker-compose.yml
+└── README.md
